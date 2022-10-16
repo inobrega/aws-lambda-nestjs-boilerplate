@@ -1,14 +1,14 @@
-# AWS Lambda NestJs Boilerplate
+# AWS Lambda NestJs Boilerplate - Domain Driven Hexagon
 
-Boilerplate code for using NestJs with AWS Lambda
+Boilerplate code for using NestJs with AWS Lambda following Domain Driven Hexagon best pratices
 
-## Installation
+### Installation
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+### Running the app
 
 ```bash
 # development
@@ -21,7 +21,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+### Test
 
 ```bash
 # unit tests
@@ -34,7 +34,7 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Create Lambda Zip
+### Create Lambda Zip
 
 ```bash
 $ npm run aws:compile
@@ -42,7 +42,5 @@ $ npm run aws:compile
 
 This command will create a zip file called "nest-lambda.zip"
 
-
-## License
-
-  Nest is [MIT licensed](LICENSE).
+### Backend Best Pratices
+To learn more about the best pratices who i used in that boilerplate, just check [this](https://github.com/inobrega/backend-best-pratices/blob/main/README.md#backend-best-pratices).
